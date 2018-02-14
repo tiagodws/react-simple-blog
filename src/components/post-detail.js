@@ -19,9 +19,9 @@ class PostDetail extends Component {
     }
 
     onDeletePost() {
-        const { deletePost, history, post } = this.props;
+        const { deletePost, history, match } = this.props;
 
-        deletePost(post.id).then(() => history.push("../"));
+        deletePost(match.params.id).then(() => history.push("../"));
     }
 
     render() {
