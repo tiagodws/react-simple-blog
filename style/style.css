@@ -10,11 +10,11 @@
     margin-bottom: 20px;
 }
 
-form .btn {
+.btn {
     min-width: 100px;
 }
 
-form .btn + .btn {
+.btn + .btn {
     margin-left: 12px;
 }
 

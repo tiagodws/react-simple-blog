@@ -15,7 +15,7 @@ class PostNew extends Component {
 
     onFormSubmit(values) {
         const { createPost, history } = this.props;
-        createPost(values, () => history.push("../"));
+        createPost(values).then(() => history.push("../"));
     }
 
     render() {
