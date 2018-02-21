@@ -23,7 +23,8 @@
         ],
         "semi": ["error", "always"],
         "quotes": ["error", "double"],
-        "comma-dangle": ["error", "always-multiline"]
+        "comma-dangle": ["error", "always-multiline"],
+        "no-console": ["warn", { "allow": ["info", "warn", "error"] }]
     },
     "globals": {
         "google": false
